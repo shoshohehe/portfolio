@@ -7,9 +7,15 @@ export const Contact = () => {
 				<h2 className="contact-h2">Contact</h2>
 				<hr />
 				<ul className="contact-snslist">
-					<FaGithub size="3rem"/>
-					<FaTwitter size="3rem"/>
-					<FaFacebook size="3rem"/>
+					<a href="https://github.com/shoshohehe">
+						<FaGithub size="4rem" />
+					</a>
+					<a href="https://twitter.com/sh0shoabc">
+						<FaTwitter size="4rem" />
+					</a>
+					<a href="https://www.facebook.com/profile.php?id=100021195338884">
+						<FaFacebook size="4rem" />
+					</a>
 				</ul>
 			</div>
 		</about>

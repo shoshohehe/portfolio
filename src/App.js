@@ -3,6 +3,7 @@ import { Header } from "./components/Header";
 import { About } from "./components/About";
 import { Certificate } from "./components/Certificate";
 import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 import React from "react";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 			<About />
 			<Certificate />
 			<Contact />
+			<Footer/>
 		</React.Fragment>
 	);
 }

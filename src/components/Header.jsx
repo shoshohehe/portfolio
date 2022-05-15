@@ -6,8 +6,8 @@ export const Header = () => {
 			className="cover-image"
 			style={{ backgroundImage: `url(${ProfileImage})` }}
 		>
-			<div className="container">
-				<h1 className="title">Shohei Miyakita</h1>
+			<div className="header-container">
+				<h1 className="header-title">Shohei Miyakita</h1>
 			</div>
 		</header>
 	);

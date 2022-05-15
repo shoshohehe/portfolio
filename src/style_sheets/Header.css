@@ -6,13 +6,13 @@
 	width: 100%;
 }
 
-.container {
+.header-container {
 	display: table;
 	width: 100%;
 	height: 100vh;
 }
 
-.title {
+.header-title {
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;

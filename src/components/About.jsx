@@ -1,9 +1,12 @@
-import GitImage from "../images/git.png";
-import RailsImage from "../images/rails.png";
-import ReactImage from "../images/react.png";
-import TerraformImage from "../images/terraform.png";
-import AwsImage from "../images/aws.png";
-import VueImage from "../images/vue.png";
+import {
+	SiRuby,
+	SiRubyonrails,
+	SiTerraform,
+	SiAmazonaws,
+	SiReact,
+	SiHtml5,
+	SiCss3,
+} from "react-icons/si";
 
 export const About = () => {
 	return (
@@ -15,21 +18,17 @@ export const About = () => {
 					<li>宮北 祥平</li>
 					<li>Shohei Miyakita</li>
                     <li>WebEngineer</li>
-                    <li>2020/04~</li>
+					<li>2020/04~</li>
 					<dl>
 						<dt>Skills</dt>
 						<dd>
-							<img src={RailsImage} alt="RailsImage" width="10%" height="100" padding-right="10"/>
-							<img src={AwsImage} alt="AwsImage" width="10%" height="100" padding-right="10"/>
-							<img
-								src={TerraformImage}
-								alt="TerraformImage"
-								width="10%"
-								height="100"
-							padding-right="10"/>
-							<img src={ReactImage} alt="ReactImage" width="10%" height="100" padding-right="10"/>
-							<img src={VueImage} alt="VueImage" width="10%" height="100" padding-right="10"/>
-							<img src={GitImage} alt="GitImage" width="10%" height="100" padding-right="10"/>
+							<SiRuby size="2rem"/>
+							<SiRubyonrails size="2rem"/>
+							<SiTerraform size="2rem"/>
+                            <SiAmazonaws size="2rem"/>
+                            <SiReact size="2rem"/>
+                            <SiHtml5 size="2rem"/>
+                            <SiCss3 size="2rem"/>
 						</dd>
 					</dl>
 				</ul>

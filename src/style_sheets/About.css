@@ -1,7 +1,6 @@
 .about-container {
 	display: table;
 	width: 100%;
-	height: 50vh;
 	background-color: #f7f8f8;
 }
 
@@ -12,7 +11,7 @@
 }
 
 .about-textlist {
-	text-align: center;
+	padding-left: 20%;
 	list-style-type: none;
 	font-family: cursive;
 	font-size: 4vh;

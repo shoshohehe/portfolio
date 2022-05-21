@@ -1,4 +1,5 @@
 import ProfileImage from "../images/profile-image.jpg";
+import MenuImage from "../images/menu-image.jpg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { VscChromeClose } from "react-icons/vsc";
 
@@ -21,14 +22,20 @@ export const Header = () => {
 					<GiHamburgerMenu size="4rem" />
 				</button>
 			) : (
-				<button
-					type="button"
-					onClick={() => setState(true)}
-					className="hamburger-menu"
+				<div
+					className="menu-image"
+					style={{ backgroundImage: `url(${MenuImage})` }}
 				>
-					<VscChromeClose size="4rem" />
-				</button>
+					<button
+						type="button"
+						onClick={() => setState(true)}
+						className="hamburger-menu"
+					>
+						<VscChromeClose size="4rem" />
+					</button>
+				</div>
 			)}
+
 			<div className="header-container">
 				<h1 className="header-title">Shohei Miyakita</h1>
 			</div>

@@ -1,0 +1,17 @@
+.certificate-container {
+	display: table;
+	width: 100%;
+	background-color: #f7f8f8;
+}
+
+.certificate-h2 {
+	font-family: cursive;
+	padding-left: 10%;
+	font-size: 5vh;
+}
+
+.certificate-textlist {
+	padding-left: 20%;
+	font-family: cursive;
+	font-size: 4vh;
+}

@@ -1,0 +1,18 @@
+.about-container {
+	display: table;
+	width: 100%;
+	background-color: #f7f8f8;
+}
+
+.about-h2 {
+	font-family: cursive;
+	padding-left: 10%;
+	font-size: 5vh;
+}
+
+.about-textlist {
+	padding-left: 20%;
+	list-style-type: none;
+	font-family: cursive;
+	font-size: 4vh;
+}

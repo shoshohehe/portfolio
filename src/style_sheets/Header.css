@@ -6,6 +6,19 @@
 	width: 100%;
 }
 
+.hamburger-menu {
+	z-index: 100;
+	display: block;
+	opacity: 0.8;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	position: fixed;
+	right: 35px;
+	top: 35px;
+	color: rgba(248, 242, 242, 0.902);
+}
+
 .header-container {
 	display: table;
 	width: 100%;

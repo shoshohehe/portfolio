@@ -11,7 +11,7 @@ import {
 export const About = () => {
 	return (
 		<about>
-            <div className="about-container">
+            <div id="about-container">
 				<h2 className="about-h2">About</h2>
 				<hr />
 				<ul className="about-textlist">

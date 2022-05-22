@@ -3,3 +3,11 @@
 @import url(./Contact.css);
 @import url(./Certificate.css);
 @import url(./Footer.css);
+
+a {
+	color: #3e3e40;
+}
+
+a:hover {
+	color: #b0c4de
+}

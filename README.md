@@ -1,6 +1,6 @@
 # Portfolio Site
 
-私の経験を紹介していくためのWebサイト作成プロジェクト。
+経験を紹介していくためのWebサイト作成プロジェクト。
 ## Script
 ### Development Server
 - `npm start`の実行後、`http://localhost:3000`へアクセス

@@ -1,5 +1,5 @@
-import ProfileImage from "../images/profile-image.jpg";
-import MenuImage from "../images/menu-image.jpg";
+import ProfileImage from "../images/profile-image.webp";
+import MenuImage from "../images/menu-image.webp";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { VscChromeClose } from "react-icons/vsc";
 import AnchorLink from "react-anchor-link-smooth-scroll";

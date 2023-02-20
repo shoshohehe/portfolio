@@ -12,7 +12,7 @@ export const Certificate = () => {
 					</dt>
 					<dd>AWS Certified Solutions Architect – Associate</dd>
 					<dt>IPA</dt>
-					<dd>comming soon...</dd>
+					<dd>応用情報技術者試験</dd>
 				</dl>
 			</div>
 		</certificate>

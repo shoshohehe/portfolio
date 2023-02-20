@@ -1,6 +1,7 @@
 # Portfolio Site
 
-経験を紹介していくためのWebサイト作成プロジェクト。
+- 経験を紹介していくためのWebサイト作成プロジェクト。
+- https://63f2e2b49d944600085680d4--amazing-beijinho-df6339.netlify.app/
 ## Script
 ### Development Server
 - `npm start`の実行後、`http://localhost:3000`へアクセス
